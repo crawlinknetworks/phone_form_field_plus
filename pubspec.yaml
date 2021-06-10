@@ -1,7 +1,9 @@
 name: phone_form_field_plus
-description: A new Flutter package project.
+description: A lightweight phone number text field fro Flutter.
 version: 0.0.1
 homepage: https://crawlink.com
+repository: https://github.com/crawlinknetworks/phone_form_field_plus
+issue_tracker: https://github.com/crawlinknetworks/phone_form_field_plus/issues
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

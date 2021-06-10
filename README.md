@@ -4,6 +4,10 @@ A lightweight phone number text field fro Flutter
 
 ## Getting Started
 
+![](https://github.com/crawlinknetworks/phone_form_field_plus/blob/master/screenshots/screen1.png?raw=true)
+
+![](https://github.com/crawlinknetworks/phone_form_field_plus/blob/master/screenshots/screen2.png?raw=true)
+
 ## Install
 
 ##### pubspec.yaml
@@ -11,7 +15,8 @@ A lightweight phone number text field fro Flutter
 phone_form_field_plus: <latest_version>
 ```
 
-Sample Usage
+## Sample Usage
+
 ```
 PhoneFormField(
     decoration: InputDecoration(
