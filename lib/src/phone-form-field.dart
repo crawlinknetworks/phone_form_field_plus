@@ -113,12 +113,9 @@ class _PhoneFormFieldState extends State<PhoneFormField> {
             InputDecoration(labelText: 'Phone', border: OutlineInputBorder()))
         .copyWith(
       counterText: "",
-      prefix: InkWell(
-        child: Container(
-          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 0),
-          child: Text(_selectedCountry!.dialCode),
-        ),
-        onTap: () async {
+      prefixIcon: TextButton(
+        child: Text(_selectedCountry!.dialCode),
+        onPressed: () async {
           Country? res = await showListPicker<Country>(
               context: context,
               filterFn: (dynamic item, str) =>
