@@ -114,6 +114,7 @@ class _PhoneFormFieldState extends State<PhoneFormField> {
         .copyWith(
       counterText: "",
       prefixIcon: TextButton(
+        style: TextButton.styleFrom(padding: EdgeInsets.zero),
         child: Text(_selectedCountry!.dialCode),
         onPressed: () async {
           Country? res = await showListPicker<Country>(
